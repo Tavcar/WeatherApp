@@ -9,4 +9,4 @@ handlers:
   static_dir: assets
   
 - url: .*
-  script: template/index.php
+  script: index.php
