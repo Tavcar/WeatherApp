@@ -1,0 +1,219 @@
+body {
+    background-color: #f9faea;
+    font-family: Georgia, serif;
+}
+
+/*jumbotron*/
+
+#jumbotron {
+    background-color: #00293C; 
+    margin-bottom: 0px;
+}
+
+#title {
+    color: #F62A00;
+}
+
+#jumbotron > .container > h1 {
+    color: #F62A00;
+}
+
+#jumbotron > .container > p {
+    color: #f9faea;
+}
+
+.form-control {
+    background-color: #f9faea;
+    color: #00293C; 
+    border: 1px solid #F62A00; 
+    font-size: 20px; 
+    min-width: 60%; 
+    margin-bottom: 5px; 
+    margin-top: 5px;
+}
+
+.form-inline > input {
+    font-size: 18px;
+    background-color: #F62A00; 
+    color: #f9faea; 
+    border: 1px solid #F62A00;
+}
+
+/*Current weather*/
+
+#current {
+    padding-bottom: 10px;
+}
+
+#current > h2 {
+    text-align: center; 
+    color: #353547;
+}
+
+#current > h2 > span {
+    font-size: 40px; 
+    color: #F62A00;
+}
+
+#current-img {
+    display: inline-block; 
+    float: none; 
+    min-width: 150px;
+}
+
+#current-img > img {
+    background-color: #f9faea; 
+    margin-bottom: 10px; 
+    margin-top: 5px;
+}
+
+#current-img > p > span {
+    font-size: 22px;
+    background-color: #F62A00; 
+    color: #f9faea; 
+    border: 1px solid #F62A00; 
+    padding-bottom: 2px;
+}
+
+#current-text {
+    min-width: 260px; 
+    display: inline-block; 
+    float: none;
+}
+
+#current-text > p {
+    font-size: 18px; 
+    text-align: left; 
+    color: #353547;
+}
+
+#current-text > p > span {
+    font-size: 40px; 
+    color: #F62A00;
+}
+
+/*3 hour forecast*/
+
+#hours {
+    background-color: #1E656D;
+    padding-bottom: 20px;
+}
+
+#hours > h2 {
+    text-align: center; 
+    color: #f9faea;
+}
+
+#hours-panel {
+    background-color: #f1f3ce; 
+    border: 2px solid #F62A00; 
+    border-radius: 5px; 
+    margin: 10px; 
+    display: inline-block; 
+    float: none; 
+    width: 150px; 
+    height: 220px; 
+    vertical-align: top;
+}
+
+#time {
+    color: #00293C; 
+    margin-top: 10px;  
+    font-size: 15px;
+}
+
+#hours-panel > img {
+    background-color: #f9faea;
+}
+
+#hours-panel > h3 {
+    margin-bottom: 5px; 
+    font-weight: 600; 
+    color: #F62A00;
+}
+
+#hours-temp {
+    font-size: 16px; 
+    color: #00293C;
+}
+
+/*Day Forecast*/
+
+#day-forecast {
+    padding-bottom: 10px;
+}
+
+#day-forecast > h2 {
+    text-align: center; 
+    color: #00293C;
+}
+
+#day-panel {
+    width: 100%; 
+    margin-bottom: 5px; 
+    display: inline-block;
+    background-color: #1E656D; 
+    border-radius: 5px; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+
+#day-img {
+    float: left;
+}
+
+#day-img > p {
+    margin-bottom: 0px;
+    color: #f9faea;
+}
+
+#day-img > img {
+    display: inline-block; 
+    float: none; 
+    margin-bottom: 4px; 
+    background-color: #f1f3ce;
+}
+
+#today {
+    color: #f9faea; 
+    font-size: 12px; 
+    margin-bottom: 0px;
+}
+
+#day-text > p {
+    font-size: 16px; 
+    margin-top: 10px; 
+    line-height: 1.7; 
+    text-align: left; 
+    color: #f9faea;
+}
+
+#temp-day {
+    font-size: 11px;
+    background-color: #F62A00; 
+    color: #f9faea; 
+    border: 1px solid #F62A00; 
+    padding-bottom: 1px;
+}
+
+#temp-night {
+    font-size: 11px; 
+    background-color: #00293C; 
+    color: #f9faea; 
+    border: 1px solid #00293C; 
+    padding-bottom: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
